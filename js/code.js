@@ -20,8 +20,6 @@
      var firstName = 'TJ';
      var lastName
 
-
-
      // TODO 2: Create a `greeting` variable as a string which says:
      //    "Hello there _____!"
      // Replace the _____ above with the value of the `firstName` variable.
@@ -37,20 +35,11 @@
      var currentYear = 2016;
      var age = currentYear - birthYear;
 
-
-
      // TODO 4: Create a new variable called `style` - if your age is under 35,
      // store "hip" in this variable, but if your age is 35 or over, store
      // "classic" in this variable.
 
-     var style
 
-     if (age < 35) {
-       style = 'hip';
-     }
-     else {
-       style = 'classic';
-     };
 
      // TODO 5: Create a variable indicating that your instructor is awesome
      // and call it `instructorIsAwesome`. This variable should be a boolean
@@ -58,36 +47,19 @@
      // Next, create a variable called `review` and, if the instructor is
      // awesome, set `review` to "good", otherwise set the `review` variable to "bad"
 
-     var instructorIsAwesome = true;
-     var review
 
-     if (review = instructorIsAwesome) {
-       review = 'good';
-     }
-
-     else {
-       review = 'bad';
-     };
 
      // TODO 6: Create a function called `math` which accepts to numbers as
      // arguments and returns the result of adding them together, mutliplying
      // by 10, then dividing by the first number.
 
-     function math (x,y) {
 
-       var total = ((x+y)*10)/x;
-       return totals;
-     }
 
      // TODO 7: Write a function called `madlib` that takes 3 separate words as
      // arguments. The function should insert the words into this sentence:
      // "I prefer __1__ while I __2__ so that I don't __3__ on the __4__."
      // Finally, the function should return that new sentence.
 
-     function madlib (home, sleep, end, street) {
-
-       var completeSentence = 'I prefer' + home + 'while I' + 'sleep' + 'so that I don\'t ' + end + 'on the' + street + '.'
-     }
 
      /* ***************************************************************
                               EPIC Mode
